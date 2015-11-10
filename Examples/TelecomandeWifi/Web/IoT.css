@@ -1,0 +1,37 @@
+.bouton {
+    width:auto;
+    padding:8px 0;
+    text-align:center;
+    display: inline-block;
+    float:left;
+    margin:0 8px 0 0;
+    border-radius:7px;
+    font-size: 0.85em;
+    width:120px;
+    color:#000;
+    font-family: Arial,sans-serif;
+	
+	box-shadow: 0 0 1px rgba( 0, 0, 0, 0.2), 0 -1px 0 rgba( 255, 255, 255, 0.1);
+	text-shadow: 0px 1px 0px rgba( 255, 255, 255, 0.3);
+}
+
+.bouton, .bouton:active {
+    background: #444;
+    background: linear-gradient( #00C200, #00FF00);
+    background: -webkit-linear-gradient( #00C200, #00FF00);
+    background: -moz-linear-gradient( #00C200, #00FF00);
+    background: -ms-linear-gradient( #00C200, #00FF00);
+    background: -o-linear-gradient( #00C200, #00FF00);
+    background: linear-gradient( #00C200, #00FF00);
+}
+
+.bouton:hover {
+    background: #00C200;
+    background: -webkit-linear-gradient( #777, #333);
+    background: -moz-linear-gradient( #777, #333);
+    background: -ms-linear-gradient( #777, #333);
+    background: -o-linear-gradient( #777, #333);
+    background: linear-gradient( #777, #333);
+}
+
+.bouton:active{box-shadow: 1px 1px 10px #000 inset, 0 1px 0 rgba( 255, 255, 255, 0.4);}
